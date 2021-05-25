@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'styles/light';
+@use 'styles/dark';
+
+body {
+  color: var(--color-primary);
+  background-color: var(--color-bg);
+  transition: color .3s ease, background-color .3s ease;
+  font-size: 42px;
+}

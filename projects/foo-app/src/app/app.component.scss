@@ -1,0 +1,11 @@
+:host {
+  &:before {
+    @media (prefers-color-scheme: dark) {
+      content: 'Dark'
+    }
+
+    @media (prefers-color-scheme: light) {
+      content: 'Light'
+    }
+  }
+}

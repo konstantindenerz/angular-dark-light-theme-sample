@@ -30,6 +30,9 @@
             "styles": [
               "projects/foo-app/src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["projects/foo-app/src/styles"]
+            },
             "scripts": []
           },
           "configurations": {
